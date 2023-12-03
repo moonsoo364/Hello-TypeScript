@@ -2,8 +2,8 @@ interface Person{
     name: string;
 }
 interface Developer extends Person{
-    skill: string;
+    ability: string;
 }
 let fe = {} as Developer;
 fe.name = 'fosh';
-fe.skill = 'typeScript';
+fe.ability = 'typeScript';
